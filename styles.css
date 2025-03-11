@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+}
+
+header p{
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.main{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 80px 0px;
+    gap: 30px;
+}
+
+.main h2{
+    margin: 0;
+    font-size: 48px;
+}
+
+.main p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main img{
+    width: 500px;
+    height: 300px;
+}
+
+.button{
+    background-color: #3882F6;
+    color: white;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    padding: 20px 0;
+}
+
+.main-cards h3{
+    font-size: 30px;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    width: 300px;
+    height: auto;
+    border:#3882F6 solid 4px;
+    border-radius: 20px;
+}
+
+.inspiring{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 100px 200px;
+
+}
+
+.inspiring-text{
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+}
+.thor{
+    margin: 0;
+    font-weight: 500;
+}
+
+
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 100px 100px;
+    padding: 40px 0px;
+    border-radius: 5px;
+    color: white;
+    gap: 40px;
+}
+
+.call-to-action p{
+    margin: 0;
+}
+
+.call-to-action-text-one{
+    font-weight: 700;
+}
+
+.call-to-action button{
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    border: #e5e7eb solid 2px;
+    font-weight: 100;
+    background-color: #3882F6;
+    color: white;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+}
+
+footer P{
+    margin: 0;
+}
